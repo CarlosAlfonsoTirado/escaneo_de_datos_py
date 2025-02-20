@@ -26,7 +26,7 @@ def change_mac(interface, new_mac):
 
 def get_current_mac(interface):
     #Con esto revisamos si la direccion MAC cambio adecuadamente 
-    #re hace referencia a exprecion regular, y este es el codigo que se necesita para usarse
+    #Se hace referencia a exprecion regular, y este es el codigo que se necesita para usarse
     #la r sola significa read
     #para obtener la expresion regular lo buscamos en pythex,org 
     ifconfig_results = subprocess.check_output(["ifconfig", options.interface])
